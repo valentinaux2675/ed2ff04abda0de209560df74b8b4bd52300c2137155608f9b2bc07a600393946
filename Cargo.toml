@@ -1,0 +1,4 @@
+[package]
+name = "rate_meter_a43379"
+version = "0.0.0"
+edition = "2021"
